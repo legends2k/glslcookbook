@@ -24,7 +24,7 @@ project( "ingredients" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "ingredients"
@@ -54,7 +54,7 @@ project( "chapter01" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter01"
@@ -85,7 +85,7 @@ project( "chapter02" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter02"
@@ -116,7 +116,7 @@ project( "chapter03" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter03"
@@ -147,7 +147,7 @@ project( "chapter04" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter04"
@@ -178,7 +178,7 @@ project( "chapter05" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter05"
@@ -209,7 +209,7 @@ project( "chapter06" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter06"
@@ -240,7 +240,7 @@ project( "chapter07" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter07"
@@ -271,7 +271,7 @@ project( "chapter08" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter08"
@@ -302,7 +302,7 @@ project( "chapter09" )
 					        
     configuration "windows"
        defines "WIN32"
-       links {"glu32", "opengl32", "winmm", "user32" }
+       links {"glu32", "opengl32", "winmm", "gdi32", "user32" }
          
     configuration "Debug"
        targetdir "chapter09"

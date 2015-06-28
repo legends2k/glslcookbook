@@ -1,5 +1,5 @@
 #include "cookbookogl.h"
-#include <glload/gll.hpp>
+#include <glload/gl_load.hpp>
 #include <GL/freeglut.h>
 
 #include "scene.h"
